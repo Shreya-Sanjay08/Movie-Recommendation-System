@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Firebase — NEVER push credentials
+firebase-adminsdk*.json
+serviceAccountKey.json
+google-services.json
+.firebaserc
+
+# Arduino compiled output
+*.elf
+*.hex
+build/
+
+# OS
+.DS_Store
